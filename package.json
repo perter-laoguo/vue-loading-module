@@ -1,0 +1,30 @@
+{
+  "name": "vue-loading-module",
+  "version": "1.1.1",
+  "description": "A plug-in to manage the loading state of vue projects",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perter-laoguo/vue-loading-module.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-loading",
+    "async",
+    "loading",
+    "plubin"
+  ],
+  "author": {
+    "name": "guoMingZhi",
+    "email": "g849659261@163.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "build": "tsc",
+    "release": "npm publish"
+  }
+}
